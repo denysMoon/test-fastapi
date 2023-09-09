@@ -3,11 +3,9 @@
     { "src": "main.py", "use": "@vercel/python" }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "main.py" }
-  ],
-  "headers": [
+    { "src": "/(.*)", "dest": "main.py" },
     {
-      "source": "/api/(.*)",
+      "src": "/api/(.*)",
       "headers": [
         { "key": "Access-Control-Allow-Credentials", "value": "true" },
         { "key": "Access-Control-Allow-Origin", "value": "*" },
