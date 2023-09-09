@@ -11,6 +11,7 @@ qr = QRcode()
 # Temporary solution for CORS policy
 origins = [
     "http://localhost:5173",
+    "http://127.0.0.1:5173",
     "https://ui-qr-git-develop-denysmoon.vercel.app",
     "https://ui-gwjhgia98-denysmoon.vercel.app"
 ]
