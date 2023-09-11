@@ -14,7 +14,8 @@ origins = [
     "http://127.0.0.1:5173",
     "https://ui-qr-git-develop-denysmoon.vercel.app",
     "https://ui-qr-denysmoon.vercel.app",
-    "https://ui-qr.vercel.app"
+    "https://ui-qr.vercel.app",
+    "https://qr-code-ui-six.vercel.app"
 ]
 
 app.add_middleware(
